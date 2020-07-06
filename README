@@ -1,0 +1,21 @@
+Task: Build data set for a logistic regression model that predicts the state of a protein
+
+Data location:
+super_secret_md.tar.gz
+
+Requirements:
+- Data set must be in a CSV file format.
+- The CSV must not have any column headers and the last column(farthest right) must contain the label.
+- Within the parent data directory 'super_secret_md' are two directories named 'closers' and 'openers'. These will be the
+  class labels you will be predicting.
+- Any data within the closers directory will have a label of 1 and anything within the openers directory a label of 0.
+- Within each of these 2 directories, there will be additional directories that that contain several .dat data files.
+  These data files will have our feature data in them.
+- One .dat file == one sample
+- Each file will be formatted as 2 values per row. The first value can be ignored but the second
+  will be the feature used in the data set.
+- If the contains NaN values, handle it as you see fit.
+- The max length of the feature vectors is 20. Fill with zeros to make shapes consistent.
+- Feel free to install Python modules.
+- To run the model script, python analysis.py path/to/data.csv
+
