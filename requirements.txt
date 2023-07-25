@@ -1,5 +1,5 @@
 ansible==2.9.9
-certifi==2020.6.20
+certifi==2023.7.22
 cryptography==2.9.2
 Jinja2==2.11.2
 joblib==0.16.0
